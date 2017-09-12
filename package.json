@@ -1,0 +1,28 @@
+{
+  "name": "photoalbum",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "i": "^0.3.5",
+    "material-ui": "^0.19.1",
+    "npm": "^5.4.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-swipeable-views": "^0.12.8",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "concurrently \"json-server --watch db.json --port 3001\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "json-server": "^0.12.0"
+  }
+}
